@@ -1,0 +1,142 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tank - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/tank.res" /d "_DEBUG" /d "_AFXDLL" "E:\codes\mfc\game\tank2\tank.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/tank.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\game\tank2\Background.cpp"
+"E:\codes\mfc\game\tank2\Line.cpp"
+"E:\codes\mfc\game\tank2\Pointf.cpp"
+"E:\codes\mfc\game\tank2\ShellObj.cpp"
+"E:\codes\mfc\game\tank2\tank.cpp"
+"E:\codes\mfc\game\tank2\tankDlg.cpp"
+"E:\codes\mfc\game\tank2\TankObj.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/tank.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\game\tank2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSPEB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/tank.pdb" /debug /machine:I386 /out:"Debug/tank.exe" /pdbtype:sept 
+.\Debug\Background.obj
+.\Debug\Line.obj
+.\Debug\Pointf.obj
+.\Debug\ShellObj.obj
+.\Debug\StdAfx.obj
+.\Debug\tank.obj
+.\Debug\tankDlg.obj
+.\Debug\TankObj.obj
+.\Debug\tank.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSPEC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Background.cpp
+E:\codes\mfc\game\tank2\Background.cpp(257) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(262) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(364) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(370) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(371) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(458) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\codes\mfc\game\tank2\Background.cpp(458) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\codes\mfc\game\tank2\Background.cpp(463) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(467) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(471) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(475) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(678) : warning C4018: '!=' : signed/unsigned mismatch
+E:\codes\mfc\game\tank2\Background.cpp(684) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(688) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(692) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(696) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(799) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(800) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(801) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Background.cpp(802) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+Line.cpp
+E:\codes\mfc\game\tank2\Line.cpp(42) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Line.cpp(43) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Line.cpp(112) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Line.cpp(113) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\Line.cpp(140) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Pointf.cpp
+ShellObj.cpp
+E:\codes\mfc\game\tank2\ShellObj.cpp(86) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\ShellObj.cpp(87) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\ShellObj.cpp(88) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\ShellObj.cpp(89) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\ShellObj.cpp(123) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\codes\mfc\game\tank2\ShellObj.cpp(123) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+tank.cpp
+tankDlg.cpp
+TankObj.cpp
+E:\codes\mfc\game\tank2\TankObj.cpp(22) : warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(22) : warning C4244: 'argument' : conversion from 'const unsigned int' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(29) : warning C4244: 'initializing' : conversion from 'const unsigned int' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(85) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(86) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(134) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(135) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(136) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(137) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(146) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(150) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(155) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(159) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(164) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(168) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(173) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(177) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(184) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(185) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(186) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(187) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(224) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(225) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(227) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(233) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(239) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(245) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(255) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(256) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(258) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(267) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(269) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(320) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(321) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(322) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(323) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(500) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(502) : warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(538) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(540) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(541) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(590) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(591) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(592) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+E:\codes\mfc\game\tank2\TankObj.cpp(593) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/tank.bsc"  .\Debug\StdAfx.sbr .\Debug\Background.sbr .\Debug\Line.sbr .\Debug\Pointf.sbr .\Debug\ShellObj.sbr .\Debug\tank.sbr .\Debug\tankDlg.sbr .\Debug\TankObj.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+tank.exe - 0 error(s), 76 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,1936 @@
+# Microsoft Developer Studio Project File - Name="Tanks" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+CFG=Tanks - Win32 Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "Tanks.mak".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "Tanks.mak" CFG="Tanks - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "Tanks - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "Tanks - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "Tanks - Win32 Release"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Release"
+# PROP BASE Intermediate_Dir "Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 5
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Release"
+# PROP Intermediate_Dir "Release"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /G5 /MT /W4 /GX /Zi /O2 /I "inc" /I "inl" /I "src" /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR /Yu"stdafx.h" /FD /c
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD BASE RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "NDEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
+# ADD LINK32 ole32.lib dsound.lib winmm.lib /nologo /subsystem:windows /debug /debugtype:both /machine:I386
+
+!ELSEIF  "$(CFG)" == "Tanks - Win32 Debug"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "Debug"
+# PROP BASE Intermediate_Dir "Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 5
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /G5 /MTd /W4 /Gm /GX /ZI /Od /I "inc" /I "inl" /I "src" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR /Yu"stdafx.h" /FD /c
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "_DEBUG"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+# ADD LINK32 ole32.lib dsound.lib winmm.lib /nologo /subsystem:windows /debug /machine:I386
+# SUBTRACT LINK32 /profile
+
+!ENDIF 
+
+# Begin Target
+
+# Name "Tanks - Win32 Release"
+# Name "Tanks - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\src\AmmoStatus.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\AniButton.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\AnimateTank.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\BitMask.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Bomb.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Bomber.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Bonus.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\BonusStatus.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Bullet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\ChatDlg.cpp
+# ADD CPP /I ".."
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\client.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\CommManager.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\CommSettingDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Dib.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\DrawDib.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\EnumSession.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\GameBoard.cpp
+# ADD CPP /I ".."
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\GameManager.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\GameObject.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\GameObjectsList.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\GameOver.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\GameSetup.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Host.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\ImageManager.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\KbdManager.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\KeyMappingDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\KeysTable.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\ManouverSet.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Message.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Mine.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\MyEdit.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Queue.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\servermgmtdlg.cpp
+# ADD CPP /I ".."
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Shell.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\ShieldStatus.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\SoundManager.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.cpp
+# ADD CPP /Yc"stdafx.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\TankObj.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Tanks.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Tanks.rc
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\TanksDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\Timer.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\src\WorkerThread.cpp
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\AnimateTank.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\ChatDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\client.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\CommSettingDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\gameboard.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\GameSetup.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\Host.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\PaletteWindow.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Resource.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\servermgmtdlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\SoundManager.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\inc\SQueue.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Tanks.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\TanksDlg.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# Begin Source File
+
+SOURCE=.\Graphics\Board.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-09.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-10.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomb-Icon.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-000.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-015.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-030.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-045.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-060.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-075.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-090.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-105.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-120.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-135.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-150.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-165.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-180.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-195.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-210.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-225.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-240.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-255.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-270.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-285.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-300.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-315.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-330.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bomber-345.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-09.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-10.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-11.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-12.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-13.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-14.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-15.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-16.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-17.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-18.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Aerial-19.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-09.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-10.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-11.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-12.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-13.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-14.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-15.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-16.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-17.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-18.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Bullets-19.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-09.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-10.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-11.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-12.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-13.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-14.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-15.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-16.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-17.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-18.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-FireRate-19.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Mines-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-09.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-10.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-11.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-12.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-13.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-14.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-15.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-16.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-17.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-18.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shells-19.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bonus-Shield-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Boulders.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Bullet-Icon.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Bullet.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Check.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\FastFire.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-00.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-01.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-02.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-03.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-04.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-05.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-06.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-07.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-08.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-09.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-10.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-11.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-12.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-13.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-14.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-15.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-16.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-17.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-18.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-19.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-20.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-21.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-22.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-23.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-24.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-25.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-26.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-27.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-28.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-29.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-30.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-31.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-32.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-33.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-34.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-35.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-36.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-37.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-38.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-39.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-40.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-41.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-42.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-43.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-44.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-45.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-46.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-47.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-48.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-49.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-50.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-51.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-52.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-53.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-54.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-55.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-56.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-57.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-58.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\GameOver-59.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\icon1.ico
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Mine-Icon.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Mine-Off.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Mine-On.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Numbers.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Pond.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 000.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 015.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 030.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 045.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 060.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 075.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 090.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 105.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 120.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 135.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 150.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 165.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 180.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 195.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 210.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 225.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 240.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 255.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 270.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 285.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 300.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 315.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 330.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell - 345.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Shell-Icon.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_00.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_01.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_02.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_03.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_04.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_05.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_06.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_07.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_08.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_09.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_10.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_11.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_12.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_13.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_14.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_15.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_16.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_17.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_18.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_19.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_20.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_21.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_22.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_23.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_24.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_25.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_26.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Shell_explode_27.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Splash.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-000.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-015.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-030.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-045.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-060.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-075.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-090.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-105.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-120.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-135.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-150.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-165.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-180.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-195.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-210.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-225.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-240.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-255.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-270.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-285.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-300.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-315.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-330.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank1-345.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Tank1.ico
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-000.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-015.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-030.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-045.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-060.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-075.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-090.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-105.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-120.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-135.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-150.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-165.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-180.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-195.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-210.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-225.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-240.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-255.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-270.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-285.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-300.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-315.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-330.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank2-345.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\tank2.ico
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-000.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-015.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-030.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-045.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-060.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-075.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-090.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-105.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-120.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-135.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-150.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-165.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-180.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-195.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-210.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-225.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-240.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-255.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-270.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-285.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-300.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-315.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-330.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank3-345.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\tank3.ico
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-000.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-015.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-030.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-045.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-060.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-075.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-090.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-105.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-120.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-135.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-150.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-165.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-180.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-195.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-210.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-225.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-240.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-255.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-270.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-285.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-300.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-315.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-330.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=".\Graphics\Tank4-345.bmp"
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\tank4.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode01.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode02.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode03.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode04.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode05.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode06.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode07.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode08.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode09.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode10.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode11.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode12.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode13.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode14.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode15.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\TankExplode16.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Tanks.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\Tanks.rc2
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\WallBlock.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Graphics\Zombie.bmp
+# End Source File
+# End Group
+# Begin Group "Animation"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Animation\Cancel.avi
+# End Source File
+# Begin Source File
+
+SOURCE=.\Animation\Default.avi
+# End Source File
+# Begin Source File
+
+SOURCE=.\Animation\OK.avi
+# End Source File
+# Begin Source File
+
+SOURCE=.\Animation\Tank1.avi
+# End Source File
+# Begin Source File
+
+SOURCE=.\Animation\Tank2.avi
+# End Source File
+# Begin Source File
+
+SOURCE=.\Animation\Tank3.avi
+# End Source File
+# Begin Source File
+
+SOURCE=.\Animation\Tank4.avi
+# End Source File
+# End Group
+# Begin Group "Libraries"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\lib\dplayx.lib
+# End Source File
+# Begin Source File
+
+SOURCE=.\lib\VFW32.LIB
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\Sounds\DropBomb.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\FireBullet.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\FireShell.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\GameOver.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\MineExplode.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\PickBonus.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\ShellExplode.wav
+# End Source File
+# Begin Source File
+
+SOURCE=.\Sounds\TankExplode.wav
+# End Source File
+# End Target
+# End Project

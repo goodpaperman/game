@@ -1,0 +1,176 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tanks - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Tanks.res" /d "_DEBUG" "E:\codes\mfc\game\tank_war\Tanks.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /G5 /MTd /W4 /Gm /GX /ZI /Od /I "inc" /I "inl" /I "src" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/Tanks.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\codes\mfc\game\tank_war\src\AmmoStatus.cpp"
+"E:\codes\mfc\game\tank_war\src\AniButton.cpp"
+"E:\codes\mfc\game\tank_war\src\AnimateTank.cpp"
+"E:\codes\mfc\game\tank_war\src\BitMask.cpp"
+"E:\codes\mfc\game\tank_war\src\Bomb.cpp"
+"E:\codes\mfc\game\tank_war\src\Bomber.cpp"
+"E:\codes\mfc\game\tank_war\src\Bonus.cpp"
+"E:\codes\mfc\game\tank_war\src\BonusStatus.cpp"
+"E:\codes\mfc\game\tank_war\src\Bullet.cpp"
+"E:\codes\mfc\game\tank_war\src\client.cpp"
+"E:\codes\mfc\game\tank_war\src\CommManager.cpp"
+"E:\codes\mfc\game\tank_war\src\CommSettingDlg.cpp"
+"E:\codes\mfc\game\tank_war\src\Dib.cpp"
+"E:\codes\mfc\game\tank_war\src\DrawDib.cpp"
+"E:\codes\mfc\game\tank_war\src\EnumSession.cpp"
+"E:\codes\mfc\game\tank_war\src\GameManager.cpp"
+"E:\codes\mfc\game\tank_war\src\GameObject.cpp"
+"E:\codes\mfc\game\tank_war\src\GameObjectsList.cpp"
+"E:\codes\mfc\game\tank_war\src\GameOver.cpp"
+"E:\codes\mfc\game\tank_war\src\GameSetup.cpp"
+"E:\codes\mfc\game\tank_war\src\Host.cpp"
+"E:\codes\mfc\game\tank_war\src\ImageManager.cpp"
+"E:\codes\mfc\game\tank_war\src\KbdManager.cpp"
+"E:\codes\mfc\game\tank_war\src\KeyMappingDlg.cpp"
+"E:\codes\mfc\game\tank_war\src\KeysTable.cpp"
+"E:\codes\mfc\game\tank_war\src\ManouverSet.cpp"
+"E:\codes\mfc\game\tank_war\src\Message.cpp"
+"E:\codes\mfc\game\tank_war\src\Mine.cpp"
+"E:\codes\mfc\game\tank_war\src\MyEdit.cpp"
+"E:\codes\mfc\game\tank_war\src\Queue.cpp"
+"E:\codes\mfc\game\tank_war\src\Shell.cpp"
+"E:\codes\mfc\game\tank_war\src\ShieldStatus.cpp"
+"E:\codes\mfc\game\tank_war\src\SoundManager.cpp"
+"E:\codes\mfc\game\tank_war\src\TankObj.cpp"
+"E:\codes\mfc\game\tank_war\src\Tanks.cpp"
+"E:\codes\mfc\game\tank_war\src\TanksDlg.cpp"
+"E:\codes\mfc\game\tank_war\src\Timer.cpp"
+"E:\codes\mfc\game\tank_war\src\WorkerThread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP21.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /G5 /MTd /W4 /Gm /GX /ZI /Od /I "inc" /I "inl" /I "src" /I "." /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/Tanks.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\codes\mfc\game\tank_war\src\ChatDlg.cpp"
+"E:\codes\mfc\game\tank_war\src\GameBoard.cpp"
+"E:\codes\mfc\game\tank_war\src\servermgmtdlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP22.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /G5 /MTd /W4 /Gm /GX /ZI /Od /I "inc" /I "inl" /I "src" /I "." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/Tanks.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\codes\mfc\game\tank_war\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP23.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+ole32.lib dsound.lib winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Tanks.pdb" /debug /machine:I386 /out:"Debug/Tanks.exe" 
+.\Debug\AmmoStatus.obj
+.\Debug\AniButton.obj
+.\Debug\AnimateTank.obj
+.\Debug\BitMask.obj
+.\Debug\Bomb.obj
+.\Debug\Bomber.obj
+.\Debug\Bonus.obj
+.\Debug\BonusStatus.obj
+.\Debug\Bullet.obj
+.\Debug\ChatDlg.obj
+.\Debug\client.obj
+.\Debug\CommManager.obj
+.\Debug\CommSettingDlg.obj
+.\Debug\Dib.obj
+.\Debug\DrawDib.obj
+.\Debug\EnumSession.obj
+.\Debug\GameBoard.obj
+.\Debug\GameManager.obj
+.\Debug\GameObject.obj
+.\Debug\GameObjectsList.obj
+.\Debug\GameOver.obj
+.\Debug\GameSetup.obj
+.\Debug\Host.obj
+.\Debug\ImageManager.obj
+.\Debug\KbdManager.obj
+.\Debug\KeyMappingDlg.obj
+.\Debug\KeysTable.obj
+.\Debug\ManouverSet.obj
+.\Debug\Message.obj
+.\Debug\Mine.obj
+.\Debug\MyEdit.obj
+.\Debug\Queue.obj
+.\Debug\servermgmtdlg.obj
+.\Debug\Shell.obj
+.\Debug\ShieldStatus.obj
+.\Debug\SoundManager.obj
+.\Debug\StdAfx.obj
+.\Debug\TankObj.obj
+.\Debug\Tanks.obj
+.\Debug\TanksDlg.obj
+.\Debug\Timer.obj
+.\Debug\WorkerThread.obj
+.\Debug\Tanks.res
+.\lib\dplayx.lib
+.\lib\VFW32.LIB
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP24.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AmmoStatus.cpp
+AniButton.cpp
+AnimateTank.cpp
+BitMask.cpp
+Bomb.cpp
+Bomber.cpp
+Bonus.cpp
+BonusStatus.cpp
+Bullet.cpp
+client.cpp
+CommManager.cpp
+CommSettingDlg.cpp
+Dib.cpp
+DrawDib.cpp
+EnumSession.cpp
+GameManager.cpp
+GameObject.cpp
+GameObjectsList.cpp
+GameOver.cpp
+GameSetup.cpp
+Generating Code...
+Compiling...
+Host.cpp
+ImageManager.cpp
+KbdManager.cpp
+KeyMappingDlg.cpp
+KeysTable.cpp
+ManouverSet.cpp
+Message.cpp
+Mine.cpp
+MyEdit.cpp
+Queue.cpp
+Shell.cpp
+ShieldStatus.cpp
+SoundManager.cpp
+TankObj.cpp
+Tanks.cpp
+TanksDlg.cpp
+Timer.cpp
+WorkerThread.cpp
+Generating Code...
+Compiling...
+ChatDlg.cpp
+GameBoard.cpp
+servermgmtdlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Tanks.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

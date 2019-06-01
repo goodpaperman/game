@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TestGame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TestGame.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\codes\game\SpellMapGame\TestGame\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+..\MapGame\Debug\MapGame.lib ..\MapKernel\Debug\MapKernel.lib /nologo /version:0.0 /subsystem:windows /incremental:yes /pdb:"Debug/TestGame.pdb" /debug /machine:I386 /out:"..\bin\TestGame.exe" /pdbtype:sept 
+.\Debug\TestGame.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\TestGameDoc.obj
+.\Debug\TestGameView.obj
+.\Debug\TestGame.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/TestGame.bsc"  .\Debug\StdAfx.sbr .\Debug\TestGame.sbr .\Debug\MainFrm.sbr .\Debug\TestGameDoc.sbr .\Debug\TestGameView.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+TestGame.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,7 @@
+; MapKernel.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MapKernel"
+DESCRIPTION  'MapKernel Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,886 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Tanks.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MY_BITMAP
+//
+
+IDB_TANK1_000           MY_BITMAP DISCARDABLE   "graphics\\tank1-000.bmp"
+IDB_TANK1_015           MY_BITMAP DISCARDABLE   "graphics\\tank1-015.bmp"
+IDB_TANK1_030           MY_BITMAP DISCARDABLE   "graphics\\tank1-030.bmp"
+IDB_TANK1_045           MY_BITMAP DISCARDABLE   "graphics\\tank1-045.bmp"
+IDB_TANK1_060           MY_BITMAP DISCARDABLE   "graphics\\tank1-060.bmp"
+IDB_TANK1_075           MY_BITMAP DISCARDABLE   "graphics\\tank1-075.bmp"
+IDB_TANK1_090           MY_BITMAP DISCARDABLE   "graphics\\tank1-090.bmp"
+IDB_TANK1_105           MY_BITMAP DISCARDABLE   "graphics\\tank1-105.bmp"
+IDB_TANK1_120           MY_BITMAP DISCARDABLE   "graphics\\tank1-120.bmp"
+IDB_TANK1_135           MY_BITMAP DISCARDABLE   "graphics\\tank1-135.bmp"
+IDB_TANK1_150           MY_BITMAP DISCARDABLE   "graphics\\tank1-150.bmp"
+IDB_TANK1_165           MY_BITMAP DISCARDABLE   "graphics\\tank1-165.bmp"
+IDB_TANK1_180           MY_BITMAP DISCARDABLE   "graphics\\tank1-180.bmp"
+IDB_TANK1_195           MY_BITMAP DISCARDABLE   "graphics\\tank1-195.bmp"
+IDB_TANK1_210           MY_BITMAP DISCARDABLE   "graphics\\tank1-210.bmp"
+IDB_TANK1_225           MY_BITMAP DISCARDABLE   "graphics\\tank1-225.bmp"
+IDB_TANK1_240           MY_BITMAP DISCARDABLE   "graphics\\tank1-240.bmp"
+IDB_TANK1_255           MY_BITMAP DISCARDABLE   "graphics\\tank1-255.bmp"
+IDB_TANK1_270           MY_BITMAP DISCARDABLE   "graphics\\tank1-270.bmp"
+IDB_TANK1_285           MY_BITMAP DISCARDABLE   "graphics\\tank1-285.bmp"
+IDB_TANK1_300           MY_BITMAP DISCARDABLE   "graphics\\tank1-300.bmp"
+IDB_TANK1_315           MY_BITMAP DISCARDABLE   "graphics\\tank1-315.bmp"
+IDB_TANK1_330           MY_BITMAP DISCARDABLE   "graphics\\tank1-330.bmp"
+IDB_TANK1_345           MY_BITMAP DISCARDABLE   "graphics\\tank1-345.bmp"
+IDB_TANK2_000           MY_BITMAP DISCARDABLE   "graphics\\TANK2-000.bmp"
+IDB_TANK2_015           MY_BITMAP DISCARDABLE   "graphics\\TANK2-015.bmp"
+IDB_TANK2_030           MY_BITMAP DISCARDABLE   "graphics\\TANK2-030.bmp"
+IDB_TANK2_045           MY_BITMAP DISCARDABLE   "graphics\\TANK2-045.bmp"
+IDB_TANK2_060           MY_BITMAP DISCARDABLE   "graphics\\TANK2-060.bmp"
+IDB_TANK2_075           MY_BITMAP DISCARDABLE   "graphics\\TANK2-075.bmp"
+IDB_TANK2_090           MY_BITMAP DISCARDABLE   "graphics\\TANK2-090.bmp"
+IDB_TANK2_105           MY_BITMAP DISCARDABLE   "graphics\\TANK2-105.bmp"
+IDB_TANK2_120           MY_BITMAP DISCARDABLE   "graphics\\TANK2-120.bmp"
+IDB_TANK2_135           MY_BITMAP DISCARDABLE   "graphics\\TANK2-135.bmp"
+IDB_TANK2_150           MY_BITMAP DISCARDABLE   "graphics\\TANK2-150.bmp"
+IDB_TANK2_165           MY_BITMAP DISCARDABLE   "graphics\\TANK2-165.bmp"
+IDB_TANK2_180           MY_BITMAP DISCARDABLE   "graphics\\TANK2-180.bmp"
+IDB_TANK2_195           MY_BITMAP DISCARDABLE   "graphics\\TANK2-195.bmp"
+IDB_TANK2_210           MY_BITMAP DISCARDABLE   "graphics\\TANK2-210.bmp"
+IDB_TANK2_225           MY_BITMAP DISCARDABLE   "graphics\\TANK2-225.bmp"
+IDB_TANK2_240           MY_BITMAP DISCARDABLE   "graphics\\TANK2-240.bmp"
+IDB_TANK2_255           MY_BITMAP DISCARDABLE   "graphics\\TANK2-255.bmp"
+IDB_TANK2_270           MY_BITMAP DISCARDABLE   "graphics\\TANK2-270.bmp"
+IDB_TANK2_285           MY_BITMAP DISCARDABLE   "graphics\\TANK2-285.bmp"
+IDB_TANK2_300           MY_BITMAP DISCARDABLE   "graphics\\TANK2-300.bmp"
+IDB_TANK2_315           MY_BITMAP DISCARDABLE   "graphics\\TANK2-315.bmp"
+IDB_TANK2_330           MY_BITMAP DISCARDABLE   "graphics\\TANK2-330.bmp"
+IDB_TANK2_345           MY_BITMAP DISCARDABLE   "graphics\\TANK2-345.bmp"
+IDB_TANK3_000           MY_BITMAP DISCARDABLE   "graphics\\TANK3-000.bmp"
+IDB_TANK3_015           MY_BITMAP DISCARDABLE   "graphics\\TANK3-015.bmp"
+IDB_TANK3_030           MY_BITMAP DISCARDABLE   "graphics\\TANK3-030.bmp"
+IDB_TANK3_045           MY_BITMAP DISCARDABLE   "graphics\\TANK3-045.bmp"
+IDB_TANK3_060           MY_BITMAP DISCARDABLE   "graphics\\TANK3-060.bmp"
+IDB_TANK3_075           MY_BITMAP DISCARDABLE   "graphics\\TANK3-075.bmp"
+IDB_TANK3_090           MY_BITMAP DISCARDABLE   "graphics\\TANK3-090.bmp"
+IDB_TANK3_105           MY_BITMAP DISCARDABLE   "graphics\\TANK3-105.bmp"
+IDB_TANK3_120           MY_BITMAP DISCARDABLE   "graphics\\TANK3-120.bmp"
+IDB_TANK3_135           MY_BITMAP DISCARDABLE   "graphics\\TANK3-135.bmp"
+IDB_TANK3_150           MY_BITMAP DISCARDABLE   "graphics\\TANK3-150.bmp"
+IDB_TANK3_165           MY_BITMAP DISCARDABLE   "graphics\\TANK3-165.bmp"
+IDB_TANK3_180           MY_BITMAP DISCARDABLE   "graphics\\TANK3-180.bmp"
+IDB_TANK3_195           MY_BITMAP DISCARDABLE   "graphics\\TANK3-195.bmp"
+IDB_TANK3_210           MY_BITMAP DISCARDABLE   "graphics\\TANK3-210.bmp"
+IDB_TANK3_225           MY_BITMAP DISCARDABLE   "graphics\\TANK3-225.bmp"
+IDB_TANK3_240           MY_BITMAP DISCARDABLE   "graphics\\TANK3-240.bmp"
+IDB_TANK3_255           MY_BITMAP DISCARDABLE   "graphics\\TANK3-255.bmp"
+IDB_TANK3_270           MY_BITMAP DISCARDABLE   "graphics\\TANK3-270.bmp"
+IDB_TANK3_285           MY_BITMAP DISCARDABLE   "graphics\\TANK3-285.bmp"
+IDB_TANK3_300           MY_BITMAP DISCARDABLE   "graphics\\TANK3-300.bmp"
+IDB_TANK3_315           MY_BITMAP DISCARDABLE   "graphics\\TANK3-315.bmp"
+IDB_TANK3_330           MY_BITMAP DISCARDABLE   "graphics\\TANK3-330.bmp"
+IDB_TANK3_345           MY_BITMAP DISCARDABLE   "graphics\\TANK3-345.bmp"
+IDB_TANK4_000           MY_BITMAP DISCARDABLE   "graphics\\TANK4-000.bmp"
+IDB_TANK4_015           MY_BITMAP DISCARDABLE   "graphics\\TANK4-015.bmp"
+IDB_TANK4_030           MY_BITMAP DISCARDABLE   "graphics\\TANK4-030.bmp"
+IDB_TANK4_045           MY_BITMAP DISCARDABLE   "graphics\\TANK4-045.bmp"
+IDB_TANK4_060           MY_BITMAP DISCARDABLE   "graphics\\TANK4-060.bmp"
+IDB_TANK4_075           MY_BITMAP DISCARDABLE   "graphics\\TANK4-075.bmp"
+IDB_TANK4_090           MY_BITMAP DISCARDABLE   "graphics\\TANK4-090.bmp"
+IDB_TANK4_105           MY_BITMAP DISCARDABLE   "graphics\\TANK4-105.bmp"
+IDB_TANK4_120           MY_BITMAP DISCARDABLE   "graphics\\TANK4-120.bmp"
+IDB_TANK4_135           MY_BITMAP DISCARDABLE   "graphics\\TANK4-135.bmp"
+IDB_TANK4_150           MY_BITMAP DISCARDABLE   "graphics\\TANK4-150.bmp"
+IDB_TANK4_165           MY_BITMAP DISCARDABLE   "graphics\\TANK4-165.bmp"
+IDB_TANK4_180           MY_BITMAP DISCARDABLE   "graphics\\TANK4-180.bmp"
+IDB_TANK4_195           MY_BITMAP DISCARDABLE   "graphics\\TANK4-195.bmp"
+IDB_TANK4_210           MY_BITMAP DISCARDABLE   "graphics\\TANK4-210.bmp"
+IDB_TANK4_225           MY_BITMAP DISCARDABLE   "graphics\\TANK4-225.bmp"
+IDB_TANK4_240           MY_BITMAP DISCARDABLE   "graphics\\TANK4-240.bmp"
+IDB_TANK4_255           MY_BITMAP DISCARDABLE   "graphics\\TANK4-255.bmp"
+IDB_TANK4_270           MY_BITMAP DISCARDABLE   "graphics\\TANK4-270.bmp"
+IDB_TANK4_285           MY_BITMAP DISCARDABLE   "graphics\\TANK4-285.bmp"
+IDB_TANK4_300           MY_BITMAP DISCARDABLE   "graphics\\TANK4-300.bmp"
+IDB_TANK4_315           MY_BITMAP DISCARDABLE   "graphics\\TANK4-315.bmp"
+IDB_TANK4_330           MY_BITMAP DISCARDABLE   "graphics\\TANK4-330.bmp"
+IDB_TANK4_345           MY_BITMAP DISCARDABLE   "graphics\\TANK4-345.bmp"
+IDB_SHELL_000           MY_BITMAP DISCARDABLE   "graphics\\shell - 000.bmp"
+IDB_SHELL_015           MY_BITMAP DISCARDABLE   "graphics\\shell - 015.bmp"
+IDB_SHELL_030           MY_BITMAP DISCARDABLE   "graphics\\shell - 030.bmp"
+IDB_SHELL_045           MY_BITMAP DISCARDABLE   "graphics\\shell - 045.bmp"
+IDB_SHELL_060           MY_BITMAP DISCARDABLE   "graphics\\shell - 060.bmp"
+IDB_SHELL_075           MY_BITMAP DISCARDABLE   "graphics\\shell - 075.bmp"
+IDB_SHELL_090           MY_BITMAP DISCARDABLE   "graphics\\shell - 090.bmp"
+IDB_SHELL_105           MY_BITMAP DISCARDABLE   "graphics\\shell - 105.bmp"
+IDB_SHELL_120           MY_BITMAP DISCARDABLE   "graphics\\shell - 120.bmp"
+IDB_SHELL_135           MY_BITMAP DISCARDABLE   "graphics\\shell - 135.bmp"
+IDB_SHELL_150           MY_BITMAP DISCARDABLE   "graphics\\shell - 150.bmp"
+IDB_SHELL_165           MY_BITMAP DISCARDABLE   "graphics\\shell - 165.bmp"
+IDB_SHELL_180           MY_BITMAP DISCARDABLE   "graphics\\shell - 180.bmp"
+IDB_SHELL_195           MY_BITMAP DISCARDABLE   "graphics\\shell - 195.bmp"
+IDB_SHELL_210           MY_BITMAP DISCARDABLE   "graphics\\shell - 210.bmp"
+IDB_SHELL_225           MY_BITMAP DISCARDABLE   "graphics\\shell - 225.bmp"
+IDB_SHELL_240           MY_BITMAP DISCARDABLE   "graphics\\shell - 240.bmp"
+IDB_SHELL_255           MY_BITMAP DISCARDABLE   "graphics\\shell - 255.bmp"
+IDB_SHELL_270           MY_BITMAP DISCARDABLE   "graphics\\shell - 270.bmp"
+IDB_SHELL_285           MY_BITMAP DISCARDABLE   "graphics\\shell - 285.bmp"
+IDB_SHELL_300           MY_BITMAP DISCARDABLE   "graphics\\shell - 300.bmp"
+IDB_SHELL_315           MY_BITMAP DISCARDABLE   "graphics\\shell - 315.bmp"
+IDB_SHELL_330           MY_BITMAP DISCARDABLE   "graphics\\shell - 330.bmp"
+IDB_SHELL_345           MY_BITMAP DISCARDABLE   "graphics\\shell - 345.bmp"
+IDB_TANK_EXPLODE_01     MY_BITMAP DISCARDABLE   "graphics\\TankExplode01.bmp"
+IDB_TANK_EXPLODE_02     MY_BITMAP DISCARDABLE   "graphics\\TankExplode02.bmp"
+IDB_TANK_EXPLODE_03     MY_BITMAP DISCARDABLE   "graphics\\TankExplode03.bmp"
+IDB_TANK_EXPLODE_04     MY_BITMAP DISCARDABLE   "graphics\\TankExplode04.bmp"
+IDB_TANK_EXPLODE_05     MY_BITMAP DISCARDABLE   "graphics\\TankExplode05.bmp"
+IDB_TANK_EXPLODE_06     MY_BITMAP DISCARDABLE   "graphics\\TankExplode06.bmp"
+IDB_TANK_EXPLODE_07     MY_BITMAP DISCARDABLE   "graphics\\TankExplode07.bmp"
+IDB_TANK_EXPLODE_08     MY_BITMAP DISCARDABLE   "graphics\\TankExplode08.bmp"
+IDB_TANK_EXPLODE_09     MY_BITMAP DISCARDABLE   "graphics\\TankExplode09.bmp"
+IDB_TANK_EXPLODE_10     MY_BITMAP DISCARDABLE   "graphics\\TankExplode10.bmp"
+IDB_TANK_EXPLODE_11     MY_BITMAP DISCARDABLE   "graphics\\TankExplode11.bmp"
+IDB_TANK_EXPLODE_12     MY_BITMAP DISCARDABLE   "graphics\\TankExplode12.bmp"
+IDB_TANK_EXPLODE_13     MY_BITMAP DISCARDABLE   "graphics\\TankExplode13.bmp"
+IDB_TANK_EXPLODE_14     MY_BITMAP DISCARDABLE   "graphics\\TankExplode14.bmp"
+IDB_TANK_EXPLODE_15     MY_BITMAP DISCARDABLE   "graphics\\TankExplode15.bmp"
+IDB_TANK_EXPLODE_16     MY_BITMAP DISCARDABLE   "graphics\\TankExplode16.bmp"
+IDB_SHELL_EXPLODE_00    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_00.bmp"
+IDB_SHELL_EXPLODE_01    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_01.bmp"
+IDB_SHELL_EXPLODE_02    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_02.bmp"
+IDB_SHELL_EXPLODE_03    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_03.bmp"
+IDB_SHELL_EXPLODE_04    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_04.bmp"
+IDB_SHELL_EXPLODE_05    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_05.bmp"
+IDB_SHELL_EXPLODE_06    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_06.bmp"
+IDB_SHELL_EXPLODE_07    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_07.bmp"
+IDB_SHELL_EXPLODE_08    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_08.bmp"
+IDB_SHELL_EXPLODE_09    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_09.bmp"
+IDB_SHELL_EXPLODE_10    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_10.bmp"
+IDB_SHELL_EXPLODE_11    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_11.bmp"
+IDB_SHELL_EXPLODE_12    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_12.bmp"
+IDB_SHELL_EXPLODE_13    MY_BITMAP DISCARDABLE   "graphics\\Shell_Explode_13.bmp"
+IDB_BULLET              MY_BITMAP DISCARDABLE   "graphics\\Bullet.bmp"
+IDB_SPLASH              MY_BITMAP DISCARDABLE   "graphics\\Splash.bmp"
+IDB_BOARD               MY_BITMAP DISCARDABLE   "graphics\\Board.bmp"
+IDB_WALLBLOCK           MY_BITMAP DISCARDABLE   "graphics\\WallBlock.bmp"
+IDB_POND                MY_BITMAP DISCARDABLE   "graphics\\Pond.bmp"
+IDB_BOULDERS            MY_BITMAP DISCARDABLE   "graphics\\Boulders.bmp"
+IDB_MINE_ICON           MY_BITMAP DISCARDABLE   "graphics\\Mine-Icon.bmp"
+IDB_DIGITS              MY_BITMAP DISCARDABLE   "graphics\\Numbers.bmp"
+IDB_BULLET_ICON         MY_BITMAP DISCARDABLE   "graphics\\Bullet-Icon.bmp"
+IDB_SHELL_ICON          MY_BITMAP DISCARDABLE   "graphics\\Shell-Icon.bmp"
+IDB_BOMB_ICON           MY_BITMAP DISCARDABLE   "graphics\\Bomb-Icon.bmp"
+IDB_FASTFIRE            MY_BITMAP DISCARDABLE   "graphics\\FastFire.bmp"
+IDB_MINE_ON             MY_BITMAP DISCARDABLE   "graphics\\Mine-On.bmp"
+IDB_MINE_OFF            MY_BITMAP DISCARDABLE   "graphics\\Mine-Off.bmp"
+IDB_BONUS_AERIAL_00     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-00.bmp"
+IDB_BONUS_AERIAL_01     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-01.bmp"
+IDB_BONUS_AERIAL_02     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-02.bmp"
+IDB_BONUS_AERIAL_03     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-03.bmp"
+IDB_BONUS_AERIAL_04     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-04.bmp"
+IDB_BONUS_AERIAL_05     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-05.bmp"
+IDB_BONUS_AERIAL_06     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-06.bmp"
+IDB_BONUS_AERIAL_07     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-07.bmp"
+IDB_BONUS_AERIAL_08     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-08.bmp"
+IDB_BONUS_AERIAL_09     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-09.bmp"
+IDB_BONUS_AERIAL_10     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-10.bmp"
+IDB_BONUS_AERIAL_11     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-11.bmp"
+IDB_BONUS_AERIAL_12     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-12.bmp"
+IDB_BONUS_AERIAL_13     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-13.bmp"
+IDB_BONUS_AERIAL_14     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-14.bmp"
+IDB_BONUS_AERIAL_15     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-15.bmp"
+IDB_BONUS_AERIAL_16     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-16.bmp"
+IDB_BONUS_AERIAL_17     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-17.bmp"
+IDB_BONUS_AERIAL_18     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-18.bmp"
+IDB_BONUS_AERIAL_19     MY_BITMAP DISCARDABLE   "graphics\\Bonus-Aerial-19.bmp"
+IDB_BONUS_BULLETS_00    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-00.bmp"
+IDB_BONUS_BULLETS_01    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-01.bmp"
+IDB_BONUS_BULLETS_02    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-02.bmp"
+IDB_BONUS_BULLETS_03    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-03.bmp"
+IDB_BONUS_BULLETS_04    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-04.bmp"
+IDB_BONUS_BULLETS_05    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-05.bmp"
+IDB_BONUS_BULLETS_06    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-06.bmp"
+IDB_BONUS_BULLETS_07    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-07.bmp"
+IDB_BONUS_BULLETS_08    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-08.bmp"
+IDB_BONUS_BULLETS_09    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-09.bmp"
+IDB_BONUS_BULLETS_10    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-10.bmp"
+IDB_BONUS_BULLETS_11    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-11.bmp"
+IDB_BONUS_BULLETS_12    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-12.bmp"
+IDB_BONUS_BULLETS_13    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-13.bmp"
+IDB_BONUS_BULLETS_14    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-14.bmp"
+IDB_BONUS_BULLETS_15    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-15.bmp"
+IDB_BONUS_BULLETS_16    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-16.bmp"
+IDB_BONUS_BULLETS_17    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-17.bmp"
+IDB_BONUS_BULLETS_18    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-18.bmp"
+IDB_BONUS_BULLETS_19    MY_BITMAP DISCARDABLE   "graphics\\Bonus-BULLETS-19.bmp"
+IDB_BONUS_FIRERATE_00   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-00.bmp"
+IDB_BONUS_FIRERATE_01   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-01.bmp"
+IDB_BONUS_FIRERATE_02   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-02.bmp"
+IDB_BONUS_FIRERATE_03   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-03.bmp"
+IDB_BONUS_FIRERATE_04   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-04.bmp"
+IDB_BONUS_FIRERATE_05   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-05.bmp"
+IDB_BONUS_FIRERATE_06   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-06.bmp"
+IDB_BONUS_FIRERATE_07   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-07.bmp"
+IDB_BONUS_FIRERATE_08   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-08.bmp"
+IDB_BONUS_FIRERATE_09   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-09.bmp"
+IDB_BONUS_FIRERATE_10   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-10.bmp"
+IDB_BONUS_FIRERATE_11   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-11.bmp"
+IDB_BONUS_FIRERATE_12   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-12.bmp"
+IDB_BONUS_FIRERATE_13   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-13.bmp"
+IDB_BONUS_FIRERATE_14   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-14.bmp"
+IDB_BONUS_FIRERATE_15   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-15.bmp"
+IDB_BONUS_FIRERATE_16   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-16.bmp"
+IDB_BONUS_FIRERATE_17   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-17.bmp"
+IDB_BONUS_FIRERATE_18   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-18.bmp"
+IDB_BONUS_FIRERATE_19   MY_BITMAP DISCARDABLE   "graphics\\Bonus-FIRERATE-19.bmp"
+IDB_BONUS_SHELLS_00     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-00.bmp"
+IDB_BONUS_SHELLS_01     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-01.bmp"
+IDB_BONUS_SHELLS_02     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-02.bmp"
+IDB_BONUS_SHELLS_03     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-03.bmp"
+IDB_BONUS_SHELLS_04     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-04.bmp"
+IDB_BONUS_SHELLS_05     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-05.bmp"
+IDB_BONUS_SHELLS_06     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-06.bmp"
+IDB_BONUS_SHELLS_07     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-07.bmp"
+IDB_BONUS_SHELLS_08     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-08.bmp"
+IDB_BONUS_SHELLS_09     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-09.bmp"
+IDB_BONUS_SHELLS_10     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-10.bmp"
+IDB_BONUS_SHELLS_11     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-11.bmp"
+IDB_BONUS_SHELLS_12     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-12.bmp"
+IDB_BONUS_SHELLS_13     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-13.bmp"
+IDB_BONUS_SHELLS_14     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-14.bmp"
+IDB_BONUS_SHELLS_15     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-15.bmp"
+IDB_BONUS_SHELLS_16     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-16.bmp"
+IDB_BONUS_SHELLS_17     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-17.bmp"
+IDB_BONUS_SHELLS_18     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-18.bmp"
+IDB_BONUS_SHELLS_19     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHELLS-19.bmp"
+IDB_BONUS_MINES_00      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-00.bmp"
+IDB_BONUS_MINES_01      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-01.bmp"
+IDB_BONUS_MINES_02      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-02.bmp"
+IDB_BONUS_MINES_03      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-03.bmp"
+IDB_BONUS_MINES_04      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-04.bmp"
+IDB_BONUS_MINES_05      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-05.bmp"
+IDB_BONUS_MINES_06      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-06.bmp"
+IDB_BONUS_MINES_07      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-07.bmp"
+IDB_BONUS_MINES_08      MY_BITMAP DISCARDABLE   "graphics\\Bonus-MINES-08.bmp"
+IDB_BONUS_SHIELD_00     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-00.bmp"
+IDB_BONUS_SHIELD_01     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-01.bmp"
+IDB_BONUS_SHIELD_02     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-02.bmp"
+IDB_BONUS_SHIELD_03     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-03.bmp"
+IDB_BONUS_SHIELD_04     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-04.bmp"
+IDB_BONUS_SHIELD_05     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-05.bmp"
+IDB_BONUS_SHIELD_06     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-06.bmp"
+IDB_BONUS_SHIELD_07     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-07.bmp"
+IDB_BONUS_SHIELD_08     MY_BITMAP DISCARDABLE   "graphics\\Bonus-SHIELD-08.bmp"
+IDB_GAMEOVER_00         MY_BITMAP DISCARDABLE   "graphics\\GameOver-00.bmp"
+IDB_GAMEOVER_01         MY_BITMAP DISCARDABLE   "graphics\\GameOver-01.bmp"
+IDB_GAMEOVER_02         MY_BITMAP DISCARDABLE   "graphics\\GameOver-02.bmp"
+IDB_GAMEOVER_03         MY_BITMAP DISCARDABLE   "graphics\\GameOver-03.bmp"
+IDB_GAMEOVER_04         MY_BITMAP DISCARDABLE   "graphics\\GameOver-04.bmp"
+IDB_GAMEOVER_05         MY_BITMAP DISCARDABLE   "graphics\\GameOver-05.bmp"
+IDB_GAMEOVER_06         MY_BITMAP DISCARDABLE   "graphics\\GameOver-06.bmp"
+IDB_GAMEOVER_07         MY_BITMAP DISCARDABLE   "graphics\\GameOver-07.bmp"
+IDB_GAMEOVER_08         MY_BITMAP DISCARDABLE   "graphics\\GameOver-08.bmp"
+IDB_GAMEOVER_09         MY_BITMAP DISCARDABLE   "graphics\\GameOver-09.bmp"
+IDB_GAMEOVER_10         MY_BITMAP DISCARDABLE   "graphics\\GameOver-10.bmp"
+IDB_GAMEOVER_11         MY_BITMAP DISCARDABLE   "graphics\\GameOver-11.bmp"
+IDB_GAMEOVER_12         MY_BITMAP DISCARDABLE   "graphics\\GameOver-12.bmp"
+IDB_GAMEOVER_13         MY_BITMAP DISCARDABLE   "graphics\\GameOver-13.bmp"
+IDB_GAMEOVER_14         MY_BITMAP DISCARDABLE   "graphics\\GameOver-14.bmp"
+IDB_GAMEOVER_15         MY_BITMAP DISCARDABLE   "graphics\\GameOver-15.bmp"
+IDB_GAMEOVER_16         MY_BITMAP DISCARDABLE   "graphics\\GameOver-16.bmp"
+IDB_GAMEOVER_17         MY_BITMAP DISCARDABLE   "graphics\\GameOver-17.bmp"
+IDB_GAMEOVER_18         MY_BITMAP DISCARDABLE   "graphics\\GameOver-18.bmp"
+IDB_GAMEOVER_19         MY_BITMAP DISCARDABLE   "graphics\\GameOver-19.bmp"
+IDB_GAMEOVER_20         MY_BITMAP DISCARDABLE   "graphics\\GameOver-20.bmp"
+IDB_GAMEOVER_21         MY_BITMAP DISCARDABLE   "graphics\\GameOver-21.bmp"
+IDB_GAMEOVER_22         MY_BITMAP DISCARDABLE   "graphics\\GameOver-22.bmp"
+IDB_GAMEOVER_23         MY_BITMAP DISCARDABLE   "graphics\\GameOver-23.bmp"
+IDB_GAMEOVER_24         MY_BITMAP DISCARDABLE   "graphics\\GameOver-24.bmp"
+IDB_GAMEOVER_25         MY_BITMAP DISCARDABLE   "graphics\\GameOver-25.bmp"
+IDB_GAMEOVER_26         MY_BITMAP DISCARDABLE   "graphics\\GameOver-26.bmp"
+IDB_GAMEOVER_27         MY_BITMAP DISCARDABLE   "graphics\\GameOver-27.bmp"
+IDB_GAMEOVER_28         MY_BITMAP DISCARDABLE   "graphics\\GameOver-28.bmp"
+IDB_GAMEOVER_29         MY_BITMAP DISCARDABLE   "graphics\\GameOver-29.bmp"
+IDB_GAMEOVER_30         MY_BITMAP DISCARDABLE   "graphics\\GameOver-30.bmp"
+IDB_GAMEOVER_31         MY_BITMAP DISCARDABLE   "graphics\\GameOver-31.bmp"
+IDB_GAMEOVER_32         MY_BITMAP DISCARDABLE   "graphics\\GameOver-32.bmp"
+IDB_GAMEOVER_33         MY_BITMAP DISCARDABLE   "graphics\\GameOver-33.bmp"
+IDB_GAMEOVER_34         MY_BITMAP DISCARDABLE   "graphics\\GameOver-34.bmp"
+IDB_GAMEOVER_35         MY_BITMAP DISCARDABLE   "graphics\\GameOver-35.bmp"
+IDB_GAMEOVER_36         MY_BITMAP DISCARDABLE   "graphics\\GameOver-36.bmp"
+IDB_GAMEOVER_37         MY_BITMAP DISCARDABLE   "graphics\\GameOver-37.bmp"
+IDB_GAMEOVER_38         MY_BITMAP DISCARDABLE   "graphics\\GameOver-38.bmp"
+IDB_GAMEOVER_39         MY_BITMAP DISCARDABLE   "graphics\\GameOver-39.bmp"
+IDB_GAMEOVER_40         MY_BITMAP DISCARDABLE   "graphics\\GameOver-40.bmp"
+IDB_GAMEOVER_41         MY_BITMAP DISCARDABLE   "graphics\\GameOver-41.bmp"
+IDB_GAMEOVER_42         MY_BITMAP DISCARDABLE   "graphics\\GameOver-42.bmp"
+IDB_GAMEOVER_43         MY_BITMAP DISCARDABLE   "graphics\\GameOver-43.bmp"
+IDB_GAMEOVER_44         MY_BITMAP DISCARDABLE   "graphics\\GameOver-44.bmp"
+IDB_GAMEOVER_45         MY_BITMAP DISCARDABLE   "graphics\\GameOver-45.bmp"
+IDB_GAMEOVER_46         MY_BITMAP DISCARDABLE   "graphics\\GameOver-46.bmp"
+IDB_GAMEOVER_47         MY_BITMAP DISCARDABLE   "graphics\\GameOver-47.bmp"
+IDB_GAMEOVER_48         MY_BITMAP DISCARDABLE   "graphics\\GameOver-48.bmp"
+IDB_GAMEOVER_49         MY_BITMAP DISCARDABLE   "graphics\\GameOver-49.bmp"
+IDB_GAMEOVER_50         MY_BITMAP DISCARDABLE   "graphics\\GameOver-50.bmp"
+IDB_GAMEOVER_51         MY_BITMAP DISCARDABLE   "graphics\\GameOver-51.bmp"
+IDB_GAMEOVER_52         MY_BITMAP DISCARDABLE   "graphics\\GameOver-52.bmp"
+IDB_GAMEOVER_53         MY_BITMAP DISCARDABLE   "graphics\\GameOver-53.bmp"
+IDB_GAMEOVER_54         MY_BITMAP DISCARDABLE   "graphics\\GameOver-54.bmp"
+IDB_GAMEOVER_55         MY_BITMAP DISCARDABLE   "graphics\\GameOver-55.bmp"
+IDB_GAMEOVER_56         MY_BITMAP DISCARDABLE   "graphics\\GameOver-56.bmp"
+IDB_GAMEOVER_57         MY_BITMAP DISCARDABLE   "graphics\\GameOver-57.bmp"
+IDB_GAMEOVER_58         MY_BITMAP DISCARDABLE   "graphics\\GameOver-58.bmp"
+IDB_GAMEOVER_59         MY_BITMAP DISCARDABLE   "graphics\\GameOver-59.bmp"
+IDB_BOMBER_000          MY_BITMAP DISCARDABLE   "graphics\\Bomber-000.bmp"
+IDB_BOMBER_015          MY_BITMAP DISCARDABLE   "graphics\\Bomber-015.bmp"
+IDB_BOMBER_030          MY_BITMAP DISCARDABLE   "graphics\\Bomber-030.bmp"
+IDB_BOMBER_045          MY_BITMAP DISCARDABLE   "graphics\\Bomber-045.bmp"
+IDB_BOMBER_060          MY_BITMAP DISCARDABLE   "graphics\\Bomber-060.bmp"
+IDB_BOMBER_075          MY_BITMAP DISCARDABLE   "graphics\\Bomber-075.bmp"
+IDB_BOMBER_090          MY_BITMAP DISCARDABLE   "graphics\\Bomber-090.bmp"
+IDB_BOMBER_105          MY_BITMAP DISCARDABLE   "graphics\\Bomber-105.bmp"
+IDB_BOMBER_120          MY_BITMAP DISCARDABLE   "graphics\\Bomber-120.bmp"
+IDB_BOMBER_135          MY_BITMAP DISCARDABLE   "graphics\\Bomber-135.bmp"
+IDB_BOMBER_150          MY_BITMAP DISCARDABLE   "graphics\\Bomber-150.bmp"
+IDB_BOMBER_165          MY_BITMAP DISCARDABLE   "graphics\\Bomber-165.bmp"
+IDB_BOMBER_180          MY_BITMAP DISCARDABLE   "graphics\\Bomber-180.bmp"
+IDB_BOMBER_195          MY_BITMAP DISCARDABLE   "graphics\\Bomber-195.bmp"
+IDB_BOMBER_210          MY_BITMAP DISCARDABLE   "graphics\\Bomber-210.bmp"
+IDB_BOMBER_225          MY_BITMAP DISCARDABLE   "graphics\\Bomber-225.bmp"
+IDB_BOMBER_240          MY_BITMAP DISCARDABLE   "graphics\\Bomber-240.bmp"
+IDB_BOMBER_255          MY_BITMAP DISCARDABLE   "graphics\\Bomber-255.bmp"
+IDB_BOMBER_270          MY_BITMAP DISCARDABLE   "graphics\\Bomber-270.bmp"
+IDB_BOMBER_285          MY_BITMAP DISCARDABLE   "graphics\\Bomber-285.bmp"
+IDB_BOMBER_300          MY_BITMAP DISCARDABLE   "graphics\\Bomber-300.bmp"
+IDB_BOMBER_315          MY_BITMAP DISCARDABLE   "graphics\\Bomber-315.bmp"
+IDB_BOMBER_330          MY_BITMAP DISCARDABLE   "graphics\\Bomber-330.bmp"
+IDB_BOMBER_345          MY_BITMAP DISCARDABLE   "graphics\\Bomber-345.bmp"
+IDB_BOMB_00             MY_BITMAP DISCARDABLE   "graphics\\Bomb-00.bmp"
+IDB_BOMB_01             MY_BITMAP DISCARDABLE   "graphics\\Bomb-01.bmp"
+IDB_BOMB_02             MY_BITMAP DISCARDABLE   "graphics\\Bomb-02.bmp"
+IDB_BOMB_03             MY_BITMAP DISCARDABLE   "graphics\\Bomb-03.bmp"
+IDB_BOMB_04             MY_BITMAP DISCARDABLE   "graphics\\Bomb-04.bmp"
+IDB_BOMB_05             MY_BITMAP DISCARDABLE   "graphics\\Bomb-05.bmp"
+IDB_BOMB_06             MY_BITMAP DISCARDABLE   "graphics\\Bomb-06.bmp"
+IDB_BOMB_07             MY_BITMAP DISCARDABLE   "graphics\\Bomb-07.bmp"
+IDB_BOMB_08             MY_BITMAP DISCARDABLE   "graphics\\Bomb-08.bmp"
+IDB_BOMB_09             MY_BITMAP DISCARDABLE   "graphics\\Bomb-09.bmp"
+IDB_BOMB_10             MY_BITMAP DISCARDABLE   "graphics\\Bomb-10.bmp"
+IDB_ZOMBIE              MY_BITMAP DISCARDABLE   "graphics\\zombie.bmp"
+IDB_CHECK               MY_BITMAP DISCARDABLE   "graphics\\check.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Tanks.ico"
+IDI_TANK1               ICON    DISCARDABLE     "res\\Tank1.ico"
+IDI_TANK2               ICON    DISCARDABLE     "res\\Tank2.ico"
+IDI_TANK3               ICON    DISCARDABLE     "res\\Tank3.ico"
+IDI_TANK4               ICON    DISCARDABLE     "res\\Tank4.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KEYMAPPING_DIALOG DIALOGEX 0, 0, 225, 189
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Keyboard mapping"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,154,102,56,
+                    14
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,154,
+                    129,56,14
+    CONTROL         "Set Default",IDC_BUTTON_DEFAULT_SETTINGS,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,154,156,56,14
+    EDITTEXT        IDC_EDIT_FORWARD,82,28,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_TURN_RIGHT,142,45,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_BACKWARD,82,60,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_TURN_LEFT,23,45,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_FIRE_SHELL,15,121,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_FIRE_BULLET,75,121,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_DROP_MINE,15,149,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_AERIAL_SUPPORT,75,149,51,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CTEXT           "Forward",IDC_STATIC,88,19,31,8,SS_CENTERIMAGE
+    GROUPBOX        "Movement controls",IDC_STATIC,6,3,211,86,BS_CENTER
+    CTEXT           "Backward",IDC_STATIC,87,73,39,8,SS_CENTERIMAGE
+    CTEXT           "Turn Right",IDC_STATIC,150,36,36,8,SS_CENTERIMAGE
+    CTEXT           "Turn Left",IDC_STATIC,29,36,34,8,SS_CENTERIMAGE
+    CTEXT           "Fire Shell",IDC_STATIC,19,112,36,8,SS_CENTERIMAGE
+    CTEXT           "Fire Bullet",IDC_STATIC,80,112,36,8,SS_CENTERIMAGE
+    CTEXT           "Drop Mine",IDC_STATIC,22,140,37,8,SS_CENTERIMAGE
+    CTEXT           "Aerial Support",IDC_STATIC,78,140,44,8,SS_CENTERIMAGE
+    GROUPBOX        "Fire controls",IDC_STATIC,7,96,132,74,BS_CENTER
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Tanks"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Tanks Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 1998",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+END
+
+IDD_TANKS_DIALOG DIALOGEX 0, 0, 207, 157
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Tanks game"
+MENU IDR_MAIN_MENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Map of game",IDC_MAP,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER,7,7,148,54,WS_EX_NOPARENTNOTIFY
+    CONTROL         "Shield status",IDC_SHIELD_STATUS,"Button",BS_OWNERDRAW | 
+                    BS_FLAT | NOT WS_VISIBLE,7,114,89,25,
+                    WS_EX_NOPARENTNOTIFY
+    CONTROL         "Ammo status",IDC_AMMO_STATUS,"Button",BS_OWNERDRAW | 
+                    BS_FLAT | NOT WS_VISIBLE,100,113,38,25,
+                    WS_EX_NOPARENTNOTIFY
+    CONTROL         "Bonus status",IDC_BONUS_STATUS,"Button",BS_OWNERDRAW | 
+                    BS_FLAT | NOT WS_VISIBLE,147,114,40,25,
+                    WS_EX_NOPARENTNOTIFY
+END
+
+IDD_GAME_SETUP DIALOGEX 0, 0, 317, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Game preferences"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Animate1",IDC_ANIMATE_TANK4,"SysAnimate32",ACS_CENTER | 
+                    WS_BORDER,223,24,20,20,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Animate1",IDC_ANIMATE_TANK3,"SysAnimate32",ACS_CENTER | 
+                    WS_BORDER,162,22,20,20,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Animate1",IDC_ANIMATE_TANK2,"SysAnimate32",ACS_CENTER | 
+                    WS_BORDER,101,22,20,20,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Animate1",IDC_ANIMATE_TANK1,"SysAnimate32",ACS_CENTER | 
+                    WS_BORDER,37,24,20,20,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,104,102,50,
+                    14
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,162,
+                    102,50,14
+    GROUPBOX        "Game map terrain complexity",IDC_STATIC1,7,57,303,38
+    CONTROL         "Slider1",IDC_COMPLEXITY,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,27,67,266,15
+    CONTROL         "Simple",IDC_STATIC3,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,24,82,27,12
+    LTEXT           "Complex",IDC_STATIC2,274,82,32,11
+END
+
+IDD_COMM_SETTING DIALOGEX 0, 0, 261, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Communication setting"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,50,162,50,
+                    14
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,161,
+                    162,50,14
+    EDITTEXT        IDC_PLAYERNAME_EDIT,65,25,92,12,ES_AUTOHSCROLL
+    CONTROL         "Host a game session",IDC_HOST_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,15,48,95,10
+    CONTROL         "Connect to game session",IDC_PLAYER_RADIO,"Button",
+                    BS_AUTORADIOBUTTON,15,60,100,10
+    LISTBOX         IDC_SPLISTBOX,12,88,237,59,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Available connections",IDC_STATIC,7,77,247,75
+    LTEXT           "Player name",IDC_STATIC,15,27,44,11
+    GROUPBOX        "Session options",IDC_STATIC,7,39,247,35
+    LTEXT           "Communication setting will be used the next time you start a new game:",
+                    IDC_STATIC,7,4,244,9
+END
+
+IDD_SERVER_MGMT DIALOG DISCARDABLE  0, 0, 207, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Server management"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Close",IDCANCEL,39,84,62,14
+    PUSHBUTTON      "&Disconnect player",IDC_DICONNECT,106,84,62,14
+    CONTROL         "List1",IDC_PLAYERS_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,7,7,193,71
+END
+
+IDD_ENUMSESSIONS_DIALOG DIALOG DISCARDABLE  0, 0, 254, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tanks Game - Select Session"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Refresh",IDC_REFRESH,101,118,50,14
+    PUSHBUTTON      "OK",IDOK,64,145,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,138,145,50,14
+    LISTBOX         IDC_ENUMSESSION_LIST,13,24,228,57,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Join the first session found.",IDC_RADIO_JOINTOFIRST,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,19,90,216,8
+    CONTROL         "List all sessions found and let me select one.",
+                    IDC_RADIO_ENUMALL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,19,101,216,8
+    GROUPBOX        "Static",IDC_ENUMSESSION_TEXT,7,15,240,122,BS_FLAT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Distributed Tanks Game\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Tanks\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998\0"
+            VALUE "OriginalFilename", "Tanks.EXE\0"
+            VALUE "ProductName", "Technion project - Distributed Tanks Game\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TANKS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_GAME_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_SERVER_MGMT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_ENUMSESSIONS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New game",                   ID_NEW_GAME
+        MENUITEM "&Stop game",                  ID_STOP_GAME
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "Set &keyboard mapping...",    ID_KBD_MAPPING
+        MENUITEM "Set &game preferences...",    ID_SET_GAME
+        MENUITEM "Set &communication preferences...", ID_SET_COMM
+        MENUITEM "&Server management...",       ID_SERVER_MGMT
+    END
+    POPUP "S&ound"
+    BEGIN
+        MENUITEM "&Mute",                       ID_SOUND_MUTE, CHECKED
+    END
+    POPUP "&Chat"
+    BEGIN
+        MENUITEM "&Open..",                     ID_CHAT_OPEN
+    END
+    POPUP "&Help", HELP
+    BEGIN
+        MENUITEM "&About...",                   ID_HELP_ABOUT
+        MENUITEM "&Player's guide",             ID_PALYERS_GUIDE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_AVI_OK              AVI     DISCARDABLE     "Animation\\OK.avi"
+IDR_AVI_CANCEL          AVI     DISCARDABLE     "Animation\\Cancel.avi"
+IDR_AVI_DEFAULT         AVI     DISCARDABLE     "Animation\\Default.avi"
+IDR_AVI_TANK0           AVI     DISCARDABLE     "Animation\\Tank1.avi"
+IDR_AVI_TANK1           AVI     DISCARDABLE     "Animation\\Tank2.avi"
+IDR_AVI_TANK2           AVI     DISCARDABLE     "Animation\\Tank3.avi"
+IDR_AVI_TANK3           AVI     DISCARDABLE     "Animation\\Tank4.avi"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+FIRE_BULLET             WAVE    MOVEABLE PURE   "Sounds\\FireBullet.wav"
+FIRE_SHELL              WAVE    MOVEABLE PURE   "Sounds\\FireShell.wav"
+SHELL_EXPLODE           WAVE    MOVEABLE PURE   "Sounds\\ShellExplode.wav"
+MINE_EXPLODE            WAVE    MOVEABLE PURE   "Sounds\\MineExplode.wav"
+TANK_EXPLODE            WAVE    MOVEABLE PURE   "Sounds\\TankExplode.wav"
+DROP_BOMB               WAVE    MOVEABLE PURE   "Sounds\\DropBomb.wav"
+PICK_BONUS              WAVE    MOVEABLE PURE   "Sounds\\PickBonus.wav"
+GAME_OVER               WAVE    MOVEABLE PURE   "Sounds\\GameOver.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAIN_DLG_ACCELERATOR ACCELERATORS DISCARDABLE 
+BEGIN
+    "K",            ID_KBD_MAPPING,         VIRTKEY, CONTROL, NOINVERT
+    "S",            IDD_GAME_SETUP,         VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_SET_COMM,            VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_NEW_GAME,            VIRTKEY, NOINVERT
+    VK_F7,          ID_LOG_GAME,            VIRTKEY, NOINVERT
+    VK_F8,          ID_PLAYBACK,            VIRTKEY, NOINVERT
+    "X",            ID_EXIT,                VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Tanks..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EXIT                 "Exit the game"
+    ID_STOP_GAME            "Stop current game session"
+    ID_NEW_GAME             "Start a new game session"
+    ID_KBD_MAPPING          "Set keyboard mapping"
+    ID_SET_GAME             "Set game session preferences"
+    ID_SET_COMM             "Set communication preferences"
+    ID_LOG_GAME             "Log current game session to a file"
+    ID_PLAYBACK             "Playback a previously logged game session"
+    IDS_REGISTRY_KEY        "Technion"
+    IDS_CANT_SAVE_GAME_SETUP "Cannot save game settings"
+    IDS_HOST_ON_EXIT        "Exiting now will end session for all players. Are you sure ?"
+    IDS_PLAYER_ON_EXIT      "Are you sure ?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HOST_ON_STOP        "Stopping now will end session for all players. Are you sure ?"
+    IDS_SINGLE_INSTANCE     "Cannot run more than one instance of the application on the same machine simultaneously !!!"
+    IDS_LOST_SEVER_CONNECTION 
+                            "Lost connection to server - ending the game !!!"
+    IDS_MUST_SELECT_PLAYER_TO_REMOVE 
+                            "To remove a player, you must select one from the list."
+    IDS_CANT_KILL_JUDGE     "You cannot remove host player."
+    IDS_CANT_KILL_PLAYER    "Cannot kill selected player"
+    IDS_CANT_SHOW_IE        "Cannot start Internet Explorer"
+    IDS_OUTOFMEMORY_ERR     "Memory allocation error."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0xD, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+#ifdef _WIN32
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CHAT_DIALOG DIALOG DISCARDABLE  0, 0, 186, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tanks Chat Window"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CHAT_EDIT,7,110,172,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Close",IDCANCEL,67,129,50,14
+    LISTBOX         IDC_CHAT_LIST,7,7,172,87,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Press Enter to send your message to all other players:",
+                    IDC_STATIC,7,97,172,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CHAT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Unknown language: 0xD, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+
+#include "res\Tanks.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

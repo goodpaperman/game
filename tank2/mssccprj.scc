@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[tank.dsp]
+SCC_Aux_Path = "E:\roots\vss"
+SCC_Project_Name = "$/game/Tank", FEAAAAAA
+
+[tank.dsw]
+SCC_Aux_Path = "E:\roots\vss"
+SCC_Project_Name = "$/game/Tank", FEAAAAAA
